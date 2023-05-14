@@ -131,6 +131,14 @@ height: 100vh;
 display: flex;
 flex-direction: row;
 align-items: center;
+justify-content: center;
+width: 47%;
+background-color: white;
+box-shadow: 0px 5px 15px 5px rgb(88, 242, 252,0.2);
+border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+border-bottom-left-radius: 30px;
 }
 
 .first_div{
@@ -142,8 +150,32 @@ height: 437px;
 
 .second_div{
     width: 50%;
-    
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
 }
 
-   
+ 
+.number{
+font-size: 55px;
+}
+
+.sub_ft{
+padding: 28px 45px;
+clip-path: circle(50% at 50% 50%);
+background: linear-gradient(0deg, rgba(52,20,217,0.3617822128851541) 4%, rgba(55,26,214,0.6530987394957983) 21%);
+
+}
+
+.sub_ft_2{
+width: 80%;
+color: rgba(255, 255, 255, 0.700);
+position: relative;
+bottom: 35px;
+}
+
+
+.you{
+position: relative;
+top: 20px;
+}
 }
